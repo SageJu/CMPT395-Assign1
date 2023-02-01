@@ -74,7 +74,7 @@ def multiple3_returnFizz():
         
     else:
         print("Test Failed.")
-        
+             
 '''
 Third iteration of fizzBuzz
 
@@ -100,23 +100,8 @@ def multiple5_returnBuzz():
     else:
         print("Test Failed")
     
-    # Now input 19 which is not a multiple of 3 or 5 so it should return nothing
-    output = fizzBuzz(19)
-    if output == None:
-        print("Test Successful")
-        
-    else:
-        print("Test Failed.")    
-        
-    # Ensure that if 3 inputted we still get Fizz returned
-    output = fizzBuzz(3)
-    if output == "Fizz":
-        print("Test Successful")
-                
-    else:
-        print("Test Failed")   
-        
-        
+    multiple3_returnFizz() # ensures previous tests still pass
+             
 '''
 Fourth iteration of fizzBuzz FINAL WORKING FUNCTION
 '''
@@ -142,28 +127,6 @@ def multiple3And5_returnFizzBuzz():
     else:
         print("Test Failed")    
     
-    # Ensure that if 5 is inputted we still get Buzz returned
-    output = fizzBuzz(5)
-    if output == "Buzz":
-        print("Test Successful")
-        
-    else:
-        print("Test Failed")
-    
-    # Now input 19 which is not a multiple of 3 or 5 so it should return nothing
-    output = fizzBuzz(19)
-    if output == None:
-        print("Test Successful")
-        
-    else:
-        print("Test Failed.")    
-        
-    # Ensure that if 3 inputted we still get Fizz returned
-    output = fizzBuzz(3)
-    if output == "Fizz":
-        print("Test Successful")
-                
-    else:
-        print("Test Failed")       
+    multiple5_returnBuzz() # ensures previous tests still pass
 
-# multiple3And5_returnFizzBuzz()
+multiple3And5_returnFizzBuzz()
