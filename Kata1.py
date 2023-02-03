@@ -18,7 +18,7 @@ I was unsure how you wanted to track development so I decided to track each step
 of fizzBuzz and the tests, I will label them by iteration so you can see the
 process I take trying to implement TDD.  Sorry if this is not what you were
 expecting and lots to read, if you don't want to see the process skip the
-commented out fizzBuzz iterations and go to the uncommented function.
+commented out fizzBuzz iterations and go to the uncommented fizzBuzz at the bottom.
 
 Thank you!
 '''
@@ -129,4 +129,4 @@ def multiple3And5_returnFizzBuzz():
     
     multiple5_returnBuzz() # ensures previous tests still pass
 
-multiple3And5_returnFizzBuzz()
+#multiple3And5_returnFizzBuzz()
