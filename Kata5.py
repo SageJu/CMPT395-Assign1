@@ -2,7 +2,7 @@
 CMPT 395 Assignment 1
 Sage Jurr
 Feb. 2, 2023
-Kata 2 - Point of Sale
+Kata 5 - Point of Sale
 '''
 
 # -------- NOTE TO THE MARKER ---------- #
