@@ -88,11 +88,11 @@ def fizzBuzz(userInput):
 '''
 
 def multiple5_returnBuzz():
-    # check if multiple of 5 is inputted into fizzBuzz it should return Fizz
+    # check if multiple of 5 is inputted into fizzBuzz it should return Buzz
     # If it doesn't then it is a failure
     
     
-    # First input 5 into fizzBuzz this should return fizz
+    # First input 5 into fizzBuzz this should return Buzz
     output = fizzBuzz(5)
     if output == "Buzz":
         print("Test Successful")
@@ -101,7 +101,7 @@ def multiple5_returnBuzz():
         print("Test Failed")
     
     multiple3_returnFizz() # ensures previous tests still pass
-             
+           
 '''
 Fourth iteration of fizzBuzz FINAL WORKING FUNCTION
 '''
@@ -116,7 +116,7 @@ def fizzBuzz(userInput):
         return
 
 def multiple3And5_returnFizzBuzz():
-    # check if multiple of 3 and 5 is inputted into fizzBuzz it should return Fizz
+    # check if multiple of 3 and 5 is inputted into fizzBuzz it should return FizzBuzz
     # If it doesn't then it is a failure
     
     # First input 15 into fizzBuzz which is a multiple of 3 and 5 it should return FizzBuzz
@@ -129,4 +129,4 @@ def multiple3And5_returnFizzBuzz():
     
     multiple5_returnBuzz() # ensures previous tests still pass
 
-#multiple3And5_returnFizzBuzz()
+multiple3And5_returnFizzBuzz()
